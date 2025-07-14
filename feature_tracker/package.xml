@@ -18,9 +18,9 @@
   <build_depend>cv_bridge</build_depend>
   <build_depend>image_transport</build_depend>
   <build_depend>tf2_ros</build_depend>
-  <build_depend>Eigen3</build_depend>
-  <build_depend>OpenCV</build_depend>
-  <build_depend>ament_index_cpp</build_depend>        <!-- 用于获取 share 目录 -->
+  <build_depend>eigen3_cmake_module</build_depend>
+  <build_depend>opencv4</build_depend>
+  <build_depend>ament_index_cpp</build_depend>        
   <build_depend>Boost</build_depend>
   <build_depend>ceres-solver</build_depend>
   
@@ -35,8 +35,8 @@
   <exec_depend>cv_bridge</exec_depend>
   <exec_depend>image_transport</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
-  <exec_depend>Eigen3</exec_depend>
-  <exec_depend>OpenCV</exec_depend>
+  <exec_depend>eigen3_cmake_module</exec_depend>
+  <exec_depend>opencv4</exec_depend>
   <exec_depend>ament_index_cpp</exec_depend>
   <exec_depend>rclcpp_components</exec_depend>
 
