@@ -1,3 +1,0 @@
-```bash
-ros2 run camera_model calibration_node -w 8 -h 11 -s 0.07 -i ~/bag/PX/calib/
-```
