@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>camera_model</name>
+  <version>0.0.0</version>
+  <description>The camera_model package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <maintainer email="dvorak@todo.todo">dvorak</maintainer>
+
+  <!-- One license tag required, multiple allowed -->
+  <license>TODO</license>
+
+  <!-- Build tool dependency -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Package dependencies -->
+  <depend>eigen3_cmake_module</depend>
+
+  <!-- Export section for ament_cmake -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
